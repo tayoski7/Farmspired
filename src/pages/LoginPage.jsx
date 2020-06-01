@@ -1,6 +1,6 @@
 /* eslint-disable object-curly-newline */
 import React from 'react';
-import SignupPage from './pages/SignupPage';
+import SignupPage, {component} from './SignupPage'; 
 import { MDBContainer, MDBCard, MDBBtn, MDBRow } from 'mdbreact';
 
 function LoginPage() {
@@ -35,7 +35,7 @@ function LoginPage() {
           <p>
             Not a member?
             <br />
-            <a href="pages/SignupPage.jsx">Register</a>
+            <a href="/Signup">Register</a>
           </p>
 
           <p>or sign in with:</p>

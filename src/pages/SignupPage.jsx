@@ -24,19 +24,8 @@ function SignupPage() {
 
                 <input type="text" id="defaultSignupFormAddress" className="form-control mb-4" placeholder="Enter your Address" />
 
-                <input type="tel" id="defaunelSignupFormphoneNumber" className="form-control mb-4" placeholder="Enter your Phone Number" />
+                <input type="number" id="defaultSignupFormphoneNumber" className="form-control mb-4" placeholder="Enter your Phone Number" />
            
-                <div className="text-center">
-                    <div>
-                        <div className="text-center custom-control custom-checkbox">
-                            <input type="checkbox" className="custom-control-input" id="defaultLoginFormRemember" />
-                            <label className="custom-control-label" htmlFor="defaultLoginFormRemember">
-                                Remember me
-                            </label>
-                        </div>
-                    </div>
-                    <br />
-                </div>
                 <MDBBtn className="btn btn-block my-4" type="submit">
                     Sign up
                 </MDBBtn>
@@ -44,7 +33,7 @@ function SignupPage() {
                 <p>
                     Already a member?
                 <br />
-                <a href="LoginPage.jsx">Login</a>
+                <a href="/Login">Login</a>
                 </p>
                 </form>
 
@@ -54,13 +43,4 @@ function SignupPage() {
 }
 
 
-
-
-
-
-
-
-
-
-
- export default SignupPage;
+export default SignupPage;
